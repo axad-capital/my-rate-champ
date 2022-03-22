@@ -1,0 +1,16 @@
+.navbar {
+    font-family: 'PT Serif', serif;
+    border-bottom: 1px solid orangered;
+    width: 95%;
+    margin: 15px auto;
+}
+
+.nav-link.active {
+    color: rgb(0, 0, 133) !important;
+    font-weight: 700;
+}
+
+.navbar-brand {
+    color: orangered !important;
+    font-weight: 700;
+}

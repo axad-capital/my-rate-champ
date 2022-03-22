@@ -1,0 +1,119 @@
+.header-h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 133);
+    font-weight: 700 !important;
+    padding-top: 50px;
+}
+
+.header h1 span {
+    color: orangered;
+    font-weight: 400;
+}
+
+.header-container {
+    max-width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-info {
+    font-weight: 600;
+    padding: 20px;
+    background-color: rgb(255, 233, 221);
+    text-align: center;
+    border-radius: 20px;
+    width: 30%;
+    min-width: 250px;
+}
+
+.header-info p {
+    font-weight: 700;
+}
+
+.header-legal {
+    text-align: center;
+    margin: 50px;
+    color: orangered;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    color: red;
+    font-size: 50px !important;
+    margin: 10px;
+}
+
+.about-me-container {
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+    max-width: 1100px;
+}
+
+.get-btn {
+    padding: 10px;
+    color: white;
+    background-color: orangered;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.get-btn:hover {
+    background-color: rgb(116, 0, 0);
+}
+
+.steps {
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(31, 31, 31);
+    color: rgb(255, 233, 221);
+}
+
+.steps h2 {
+    color: rgb(255, 122, 74);
+}
+
+.steps h2 span {
+    color: rgb(0, 183, 255);
+}
+
+.process-container {
+    margin: 50px;
+    text-align: center;
+}
+
+.process-container h4 {
+    color: rgb(0, 0, 133);
+    font-weight: 700;
+}
+
+.process-icon {
+    background-color: orangered;
+    color: white !important;
+    border-radius: 50%;
+    font-size: 100px !important;
+}
+
+.process-container p {
+    font-weight: 600 !important;
+}
+
+.why-us h2 {
+    color: rgb(0, 0, 133);
+}
+
+@media screen and (max-width: 1070px) {
+    .header-container {
+        display: block;
+        width: 300px;
+        margin: 50px auto;
+    }
+
+    .header-info {
+        margin-bottom: 30px;
+    }
+}
