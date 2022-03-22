@@ -20,14 +20,14 @@ const NavComp = () => {
                                 <a href='/' className={location.hash === '' ? 'nav-link active' : 'nav-link'}>Home</a>
                             </li>
                             <li className="nav-item">
-                                <a href='#about-me' className={location.hash === '#about-me' ? 'nav-link active' : 'nav-link'}>About Me</a>
+                                <a href='#about-me' className={location.hash === '#about-me' ? 'nav-link active' : 'nav-link'}>About Us</a>
                             </li>
                             <li className="nav-item">
                                 <a href='#process' className={location.hash === '#process' ? 'nav-link active' : 'nav-link'}>Process</a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a href='#contact-us' className={location.hash === '#contact-us' ? 'nav-link active' : 'nav-link'}>Contact Us</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

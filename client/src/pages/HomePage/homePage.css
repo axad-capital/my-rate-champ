@@ -102,18 +102,120 @@
     font-weight: 600 !important;
 }
 
+.why-us {
+    background-color: rgb(255, 233, 221);
+    padding: 50px;
+}
+
+.line {
+    border-bottom: 1px solid orangered;
+    width: 80%;
+    margin: 0 auto;
+}
+
 .why-us h2 {
     color: rgb(0, 0, 133);
+    text-align: center;
+    font-weight: 700;
+}
+
+.why-us p {
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    min-width: 250px;
+}
+
+.why-table-container {
+    width: 80%;
+    margin: 10px auto;
+    margin-bottom: 40px;
+    font-weight: 700;
+    background-color: rgb(255, 233, 221) !important;
+}
+
+.why-table-container th {
+    color: rgb(0, 0, 133);
+    font-weight: 700;
+    background-color: white;
+    font-size: 20px;
+}
+
+.why-table-container tr:nth-child(even) {
+    background-color: rgb(255, 150, 93);
+    color: white;
+}
+
+.why-table-container tr:nth-child(odd) {
+    background-color: rgb(253, 188, 153);
+}
+
+.why-table-container th, .why-table-container td {
+    padding: 20px;
+}
+
+.researcher {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 80%;
+}
+
+.researcher h2 {
+    font-weight: 700;
+    color: rgb(0, 0, 133);
+}
+
+.researcher h2 span {
+    color: orangered;
+}
+
+.researcher-info button {
+    margin-top: 30px;
+}
+
+.researcher img {
+    width: 100%;
 }
 
 @media screen and (max-width: 1070px) {
     .header-container {
         display: block;
-        width: 300px;
+        width: 100%;
         margin: 50px auto;
     }
 
     .header-info {
-        margin-bottom: 30px;
+        margin: 30px auto;
+    }
+
+    .researcher {
+        display: block;
+        text-align: center;
+    }
+
+    .researcher-info h2 {
+        padding-bottom: 50px;
+    }
+
+    .researcher-info button {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .why-us {
+        width: 100%;
+    }
+
+    .why-table-container th {
+        font-size: 13px;
+    }
+
+    .why-table-container td {
+        font-size: 12px;
     }
 }
