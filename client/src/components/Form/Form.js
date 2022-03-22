@@ -1,5 +1,6 @@
 import React from 'react';
 import './form.css';
+import QuoteCar from './quote-car.png';
 
 const Form = () => {
 
@@ -10,6 +11,7 @@ const Form = () => {
     return (
         <div>
             <div className='quote-form'>
+                <img className='quote-car' src={QuoteCar} alt="car" />
                 <h1 id='quote-heading'>Get A Free Quote Now</h1>
                 <p>Stay Home & Renew Car Insurance In 2 Minutes</p>
                 <div className='input-container'>

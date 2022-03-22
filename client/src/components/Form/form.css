@@ -1,5 +1,5 @@
 .quote-form {
-    background-color: rgb(255, 233, 221);
+    /* background-color: rgb(255, 233, 221); */
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
@@ -8,6 +8,8 @@
     font-family: 'PT Serif', serif;
     border-radius: 20px;
     box-shadow: 0 0 20px .1px;
+    position: relative;
+    overflow: hidden;
 }
 
 #quote-heading {
@@ -17,8 +19,9 @@
 }
 
 .quote-form p {
-    color: orangered;
+    color: rgb(0, 0, 0);
     font-weight: 700;
+    font-size: 20px;
 }
 
 .form-input {
@@ -44,4 +47,26 @@
 
 .form-btn:hover {
     background-color: rgb(116, 0, 0);
+}
+
+.quote-car {
+    width: 70%;
+    min-width: 400px;
+    opacity: .5;
+    position: absolute;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .quote-car {
+        top: 20%;
+        width: 200%;
+        left: -55%;
+    }
 }

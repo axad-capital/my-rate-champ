@@ -6,6 +6,7 @@ import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import CheckIcon from '@mui/icons-material/Check';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import ResearchImg from './images/research.png';
+import PsychologyIcon from '@mui/icons-material/Psychology';
 
 const HomePage = () => {
   return (
@@ -32,11 +33,12 @@ const HomePage = () => {
         <QuoteForm />
       </div>
 
-      <div id='about-me' className='about-me-container'>
-        <h1 className='header-h1'>We Work For You Not The Insurance Companies.</h1>
-        <p>We do not work with any insurance companies specifically, so you can expect to get the abosulte best option for you without needing to worry about us pushing you into a choice that might not be your best fit.</p>
-        <button className='get-btn' onClick={() => window.location.href = '#quote-form'}>Get A Quote</button>
-      </div>
+        <div id='about-me' className='about-me-container'>
+          <h1 className='header-h1'>We Work For You Not The Insurance Companies.</h1>
+          <p>We do not work with any insurance companies specifically, so you can expect to get the abosulte best option for you without needing to worry about us pushing you into a choice that might not be your best fit.</p>
+          <button className='get-btn' onClick={() => window.location.href = '#quote-form'}>Get A Quote</button>
+        </div>
+        <div className='about-me'></div>
 
       <div id="process" className='steps'>
         <h2>Get Insured In Only <span>3</span> Easy Steps!</h2>
@@ -68,7 +70,7 @@ const HomePage = () => {
       </div>
 
       <div className='why-us'>
-        <h2>Why Choose Us?</h2>
+        <h2><PsychologyIcon/>Why Choose Us?</h2>
         <br />
         <div className='line'></div>
         <p>We have the best options in car insurance ready for you at the click of a button. Fill out a form at NO expense you will have your best and most affordable option readily available to you.</p>
