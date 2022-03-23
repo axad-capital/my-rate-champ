@@ -1,5 +1,5 @@
 import React from 'react';
-import './thankYou.css';
+import './thankYouAuto.css';
 
 const ThankYou = () => {
     return (

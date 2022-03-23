@@ -5,7 +5,7 @@ import QuoteCar from './quote-car.png';
 const Form = () => {
 
     function quoteFormHandler() {
-        window.location.href = '/thank-you'
+        window.location.href = '/thank-you-auto'
     }
 
     return (
