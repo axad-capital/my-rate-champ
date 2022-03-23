@@ -11,6 +11,10 @@
 }
 
 .navbar-brand {
-    color: orangered !important;
+    color: rgb(0, 0, 133) !important;
     font-weight: 700;
+}
+
+.auto-span {
+    color: orangered
 }
