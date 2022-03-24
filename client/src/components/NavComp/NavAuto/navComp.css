@@ -1,5 +1,6 @@
 .navbar {
-    font-family: 'PT Serif', serif;
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Overpass', sans-serif;
     border-bottom: 1px solid orangered;
     width: 95%;
     margin: 15px auto;

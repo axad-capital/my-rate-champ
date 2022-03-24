@@ -13,6 +13,11 @@ const HomePage = () => {
   return (
     <div>
       <NavAuto />
+      <br />
+      <br />
+      <div id='quote-form'>
+        <QuoteForm />
+      </div>
       <div className='header'>
         <h1 className='header-h1'>Save Up To <span> 30% </span>On Your Car Insurance In Minutes.</h1>
         <div className='header-container'>
@@ -30,9 +35,6 @@ const HomePage = () => {
           </div>
         </div>
         <p className='header-legal'>*TP price for less than 1000 CC cars. All savings are provided by insurers as per Gov. approved insurance plan. Standard T&C apply.</p>
-      </div>
-      <div id='quote-form'>
-        <QuoteForm />
       </div>
 
         <div id='about-me' className='about-me-container'>

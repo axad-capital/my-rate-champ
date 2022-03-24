@@ -5,7 +5,7 @@
     margin: 0 auto;
     padding: 50px;
     text-align: center;
-    font-family: 'PT Serif', serif;
+    /* font-family: 'PT Serif', serif; */
     border-radius: 20px;
     box-shadow: 0 0 20px .1px;
     position: relative;
@@ -14,7 +14,7 @@
 
 #quote-heading {
     color: rgb(0, 0, 133);
-    font-family: 'PT Serif', serif;
+    /* font-family: 'PT Serif', serif; */
     font-weight: 700;
 }
 
