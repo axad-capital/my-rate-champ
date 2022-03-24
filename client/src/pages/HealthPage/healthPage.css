@@ -1,0 +1,42 @@
+.health-header {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.health-header-title {
+    font-size: 50px;
+}
+
+.health-header-subtitle span {
+    color: rgb(255, 0, 140);
+}
+
+.health-header-title span {
+    color: rgb(255, 0, 140);
+}
+
+.health-header-img-container {
+    text-align: center;
+}
+
+.health-form-btn {
+    padding: 10px;
+    color: white;
+    background-color: rgb(255, 0, 140);
+    font-weight: 700;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.health-form-btn:hover {
+    background-color: rgb(255, 74, 174);
+}
+
+.health-header-img {
+    width: 90%;
+}
+
+.health-process-title {
+    
+}

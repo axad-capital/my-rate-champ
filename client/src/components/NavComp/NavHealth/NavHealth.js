@@ -21,7 +21,7 @@ const NavHealth = () => {
                 <a href='/' className={location.hash === '' ? 'nav-link active' : 'nav-link'}>Home</a>
               </li>
               <li className="nav-item">
-                <a href='#about-me' className={location.hash === '#about-me' ? 'nav-link active' : 'nav-link'}>About Us</a>
+                <a href='#health-about' className={location.hash === '#about-me' ? 'nav-link active' : 'nav-link'}>About Us</a>
               </li>
               <li className="nav-item">
                 <a href='#process' className={location.hash === '#process' ? 'nav-link active' : 'nav-link'}>Process</a>

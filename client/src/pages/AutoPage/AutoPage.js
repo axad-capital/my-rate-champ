@@ -1,7 +1,7 @@
 import React from 'react';
 import NavAuto from '../../components/NavComp/NavAuto/NavAuto';
 import './autoPage.css';
-import QuoteForm from '../../components/Forms/AutoForm';
+import QuoteForm from '../../components/Forms/AutoForm/AutoForm';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import CheckIcon from '@mui/icons-material/Check';

@@ -1,0 +1,25 @@
+.health-form-title {
+    color: rgb(255, 0, 140);
+}
+
+.health-form-container {
+    justify-content: center;
+}
+
+.health-form-container label {
+    font-weight: 600;
+}
+
+.health-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.health-form-input {
+    margin: 20px auto;
+}
+
+.health-btn {
+    background-color: rgb(255, 0, 140);
+    margin: 20px auto;
+}
