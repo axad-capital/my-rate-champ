@@ -54,7 +54,6 @@ const Partners = () => {
           <li>Call Center Partnerships</li>
           <li>Cedar Tree Media</li>
           <li>Cege Media</li>
-          <li>Cege Media</li>
           <li>Choice Direct</li>
           <li>Cigna, Coventry, Fortis</li>
           <li>Citirex</li>

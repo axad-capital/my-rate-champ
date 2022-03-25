@@ -37,6 +37,45 @@
     width: 90%;
 }
 
-.health-process-title {
-    
+.health-process {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.health-steps-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.small-line {
+    border-bottom: 1px solid black;
+}
+
+.health-steps {
+    background-color: rgb(255, 208, 226);
+    padding: 40px;
+    width: 30%;
+    min-width: 250px;
+    max-width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    font-weight: 900;
+}
+
+.health-steps :first-child {
+    color: rgb(255, 46, 126);
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .health-steps-container {
+        display: block;
+    }
+
+    .health-steps {
+        margin: 50px auto;
+        width: 60%;
+    }
 }
