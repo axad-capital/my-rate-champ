@@ -9,3 +9,30 @@
 .bg-blue {
     background-color: rgb(217, 217, 255) !important;
 }
+
+
+.life-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.life-img-container {
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+}
+
+.life-header-img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1120px) {
+    .life-header-container {
+        display: block;
+    }
+    .life-img-container {
+        margin: 0px auto;
+    }
+}

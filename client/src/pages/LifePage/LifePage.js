@@ -2,7 +2,8 @@ import React from 'react';
 import './lifePage.css';
 import NavLife from '../../components/NavComp/NavLife/NavLife';
 import LifeForm from '../../components/Forms/LifeForm/LifeForm';
-import LifeImg from './life-img.png'
+import LifeImg from './life-img.png';
+import LifeHeader from './life-header.png';
 
 const LifePage = () => {
 
@@ -13,8 +14,11 @@ const LifePage = () => {
         <NavLife />
       </div>
       <br />
-      <div>
-        <LifeForm />
+      <div className='life-header-container'>
+        <div className='life-img-container'>
+          <img className='life-header-img' src={LifeHeader} alt="header" />
+        </div>
+          <LifeForm />
       </div>
       <br />
       <div id='health-about' className='health-header'>
