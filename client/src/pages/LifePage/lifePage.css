@@ -1,0 +1,11 @@
+.blue {
+    color: rgb(47, 103, 255) !important;
+}
+
+.bg-blue :first-child {
+    color: blue !important;
+}
+
+.bg-blue {
+    background-color: rgb(217, 217, 255) !important;
+}

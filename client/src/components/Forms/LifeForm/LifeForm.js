@@ -2,9 +2,14 @@ import React from 'react';
 import './lifeForm.css';
 
 const LifeForm = () => {
+
+    function handleLifeFormSubmit() {
+        window.location.href = '/thank-you-life'
+    }
+
     return (
         <div>
-            <div className='life-form-container'>
+            <div id='life-form' className='life-form-container'>
                 <h1>Focus On What Really Matters</h1>
                 <p>You Could Be Eligible To Get Coverage For As Little As $15/Month*</p>
                 <div className='life-form-info'>
@@ -32,23 +37,21 @@ const LifeForm = () => {
                     </select>
                     <label htmlFor="coverage-amount">Coverage Amount</label>
                     <select name="coverage-amount">
-                        <option value="10000">10000</option>
-                        <option value="20000">20000</option>
-                        <option value="30000">30000</option>
-                        <option value="40000">40000</option>
-                        <option value="50000">50000</option>
-                        <option value="60000">60000</option>
-                        <option value="70000">70000</option>
-                        <option value="80000">80000</option>
-                        <option value="90000">90000</option>
-                        <option value="100000">100000</option>
-                        <option value="110000">110000</option>
-                        <option value="120000">120000</option>
-                        <option value="130000">130000</option>
-                        <option value="140000">140000</option>
-                        <option value="150000">150000</option>
-                        
+                        <option value="10000-100000">10,000-100,000</option>
+                        <option value="100000-200000">100,000-200,000</option>
+                        <option value="200000-300000">200,000-300,000</option>
+                        <option value="300000-400000">300,000-400,000</option>
+                        <option value="400000-500000">400,000-500,000</option>
+                        <option value="500000-600000">500,000-600,000</option>
+                        <option value="600000-700000">600,000-700,000</option>
+                        <option value="700000-800000">700,000-800,000</option>
+                        <option value="800000-900000">800,000-900,000</option>
+                        <option value="900000-1000000">900,000-1,000,000</option>
+                        <option value="1000000+">1,000,000 +</option>
                     </select>
+                    <br />
+                    <button onClick={handleLifeFormSubmit} className='life-form-btn'>SUBMIT</button>
+                    <br />
                 </div>
             </div>
         </div>

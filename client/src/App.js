@@ -11,6 +11,7 @@ import Terms from './pages/Legal/Terms';
 import Disclaimer from './pages/Legal/Disclaimer';
 import Partners from './pages/Legal/Partners';
 import ThankYouHealth from './pages/ThankYouPages/ThankYouHealth/ThankYouHealth';
+import ThankYouLife from './pages/ThankYouPages/ThankYouLife/ThankYouLife';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route exact path='/life-insurance' element={<LifePage />} />
           <Route exact path='/thank-you-auto' element={<ThankYouAuto />} />
           <Route exact path='/thank-you-health' element={<ThankYouHealth />} />
+          <Route exact path='/thank-you-life' element={<ThankYouLife />} />
           <Route exact path='/privacy-policy' element={<PrivacyPolicy />} />
           <Route exact path='/terms' element={<Terms />} />
           <Route exact path='/disclaimer' element={<Disclaimer />} />
