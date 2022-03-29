@@ -5,6 +5,8 @@ import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import InsurancePic from './insurancepic.png';
+import Footer from '../../components/Footer/Footer'
+
 
 const HomePage = () => {
   return (
@@ -32,6 +34,7 @@ const HomePage = () => {
         <div className='insurance-pic-container'>
             <img className='insurance-pic' src={InsurancePic} alt="insurance" />
         </div>
+        <Footer />
     </div>
   )
 }

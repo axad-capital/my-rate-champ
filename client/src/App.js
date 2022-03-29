@@ -5,7 +5,7 @@ import AutoPage from './pages/AutoPage/AutoPage';
 import HealthPage from './pages/HealthPage/HealthPage';
 import LifePage from './pages/LifePage/LifePage';
 import ThankYouAuto from './pages/ThankYouPages/ThankYouAuto/ThankYouAuto';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 import PrivacyPolicy from './pages/Legal/PrivacyPolicy';
 import Terms from './pages/Legal/Terms';
 import Disclaimer from './pages/Legal/Disclaimer';
@@ -30,7 +30,9 @@ function App() {
           <Route exact path='/disclaimer' element={<Disclaimer />} />
           <Route exact path='/partners' element={<Partners />} />
         </Routes>
-        <Footer />
+        {/* <div id='footer-wrap'>
+          <Footer />
+        </div> */}
       </Router>
     </div>
   );

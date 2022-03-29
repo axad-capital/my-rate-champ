@@ -8,6 +8,7 @@ import CheckIcon from '@mui/icons-material/Check';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import ResearchImg from './images/research.png';
 import PsychologyIcon from '@mui/icons-material/Psychology';
+import Footer from '../../components/Footer/Footer'
 
 const HomePage = () => {
   return (
@@ -159,7 +160,7 @@ const HomePage = () => {
         </div>
         <img src={ResearchImg} alt="researcher" />
       </div>
-
+    <Footer />
     </div>
   )
 }

@@ -4,6 +4,8 @@ import NavLife from '../../components/NavComp/NavLife/NavLife';
 import LifeForm from '../../components/Forms/LifeForm/LifeForm';
 import LifeImg from './life-img.png';
 import LifeHeader from './life-header.png';
+import Footer from '../../components/Footer/Footer'
+
 
 const LifePage = () => {
 
@@ -66,6 +68,7 @@ const LifePage = () => {
         </div>
         <br />
       </div>
+      <Footer/>
     </div>
   )
 }

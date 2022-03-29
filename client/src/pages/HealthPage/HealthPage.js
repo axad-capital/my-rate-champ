@@ -3,6 +3,8 @@ import './healthPage.css';
 import NavHealth from '../../components/NavComp/NavHealth/NavHealth';
 import HealthForm from '../../components/Forms/HealthForm/HealthForm';
 import HealthHeaderImg from './health-header-img.png';
+import Footer from '../../components/Footer/Footer'
+
 
 const HealthPage = () => {
   return (
@@ -55,6 +57,7 @@ const HealthPage = () => {
         </div>
         <br />
       </div>
+      <Footer/>
     </div>
   )
 }
