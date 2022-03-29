@@ -26,7 +26,7 @@ const HealthPage = () => {
           <img className='health-header-img' src={HealthHeaderImg} alt="health header" />
         </div>
       </div>
-      <div id='process' className='health-process'>
+      <div id='health-process' className='health-process'>
         <h1 className='health-process-title'>To get a free quote, just enter some brief information and get your quote in minutes.</h1>
         <br />
         <h3>Licensed health insurance agents are available to speak with you.</h3>
@@ -50,6 +50,10 @@ const HealthPage = () => {
             <p>Find The Right Health Insurance Coverage And SAVE MONEY!</p>
           </div>
         </div>
+        <div>
+          <button className='health-form-btn' onClick={() => window.location.href = '#health-form'}>Get A Quote</button>
+        </div>
+        <br />
       </div>
     </div>
   )

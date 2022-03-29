@@ -37,12 +37,12 @@ const HomePage = () => {
         <p className='header-legal'>*TP price for less than 1000 CC cars. All savings are provided by insurers as per Gov. approved insurance plan. Standard T&C apply.</p>
       </div>
 
-        <div id='about-me' className='about-me-container'>
-          <h1 className='header-h1'>We Work For You Not The Insurance Companies.</h1>
-          <p>We do not work with any insurance companies specifically, so you can expect to get the abosulte best option for you without needing to worry about us pushing you into a choice that might not be your best fit.</p>
-          <button className='get-btn' onClick={() => window.location.href = '#quote-form'}>Get A Quote</button>
-        </div>
-        <div className='about-me'></div>
+      <div id='about-me' className='about-me-container'>
+        <h1 className='header-h1'>We Work For You Not The Insurance Companies.</h1>
+        <p>We do not work with any insurance companies specifically, so you can expect to get the abosulte best option for you without needing to worry about us pushing you into a choice that might not be your best fit.</p>
+        <button className='get-btn' onClick={() => window.location.href = '#quote-form'}>Get A Quote</button>
+      </div>
+      <div className='about-me'></div>
 
       <div id="process" className='steps'>
         <h2>Get Insured In Only <span>3</span> Easy Steps!</h2>
@@ -74,77 +74,82 @@ const HomePage = () => {
       </div>
 
       <div className='why-us'>
-        <h2><PsychologyIcon/>Why Choose Us?</h2>
+        <h2><PsychologyIcon />Why Choose Us?</h2>
         <br />
         <div className='line'></div>
         <p>We have the best options in car insurance ready for you at the click of a button. Fill out a form at NO expense you will have your best and most affordable option readily available to you.</p>
       </div>
       <table className='why-table-container'>
-        <tr>
-          <th>Advance Features</th>
-          <th>Comprehensive</th>
-          <th>Third-Party</th>
-        </tr>
-        <tr>
-          <td>Instant Online Buying</td>
-          <td>✔️</td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>No Hidden Fees</td>
-          <td>✔️</td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Wind Range Of Major Insurance</td>
-          <td>✔️</td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Save Time And Money</td>
-          <td>✔️</td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>100% Independent</td>
-          <td>✔️</td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Compare Cost And Futures</td>
-          <td>✔️</td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Aveilable 24/7</td>
-          <td>✔️</td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>No Claim Bonus</td>
-          <td>✔️</td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Claim Settlement Ratio</td>
-          <td>✔️</td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Own Damage Cover</td>
-          <td>✔️</td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Damages to Third-Party</td>
-          <td>✔️</td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Third party's death or injury</td>
-          <td>✔️</td>
-          <td>❌</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>Advance Features</th>
+            <th>Comprehensive</th>
+            <th>Third-Party</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td>Instant Online Buying</td>
+            <td>✔️</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>No Hidden Fees</td>
+            <td>✔️</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Wind Range Of Major Insurance</td>
+            <td>✔️</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Save Time And Money</td>
+            <td>✔️</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>100% Independent</td>
+            <td>✔️</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Compare Cost And Futures</td>
+            <td>✔️</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Aveilable 24/7</td>
+            <td>✔️</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>No Claim Bonus</td>
+            <td>✔️</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Claim Settlement Ratio</td>
+            <td>✔️</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Own Damage Cover</td>
+            <td>✔️</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Damages to Third-Party</td>
+            <td>✔️</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Third party's death or injury</td>
+            <td>✔️</td>
+            <td>❌</td>
+          </tr>
+        </tbody>
       </table>
 
       <div className='researcher'>

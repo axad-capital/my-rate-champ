@@ -1,8 +1,7 @@
 import React from 'react'
-import './thankYouAuto.css'
 import NavHome from '../../../components/NavComp/NavHome/NavHome'
 
-const ThankYouAuto = () => {
+const ThankYouHealth = () => {
     return (
         <div>
             <NavHome />
@@ -15,4 +14,4 @@ const ThankYouAuto = () => {
     )
 }
 
-export default ThankYouAuto
+export default ThankYouHealth

@@ -8,8 +8,17 @@
     /* font-family: 'PT Serif', serif; */
     border-radius: 20px;
     box-shadow: 0 0 20px .1px;
-    position: relative;
-    overflow: hidden;
+}
+
+.auto-form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.auto-form input, .auto-form select, .auto-form button, .auto-form label {
+    margin: 5px auto;
 }
 
 #quote-heading {
@@ -49,7 +58,7 @@
     background-color: rgb(116, 0, 0);
 }
 
-.quote-car {
+/* .quote-car {
     width: 70%;
     min-width: 400px;
     opacity: .5;
@@ -61,12 +70,12 @@
     left: 0;
     right: 0;
     text-align: center;
-}
+} */
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
     .quote-car {
         top: 20%;
         width: 200%;
         left: -55%;
     }
-}
+} */
