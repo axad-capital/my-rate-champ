@@ -1,10 +1,12 @@
 import React from 'react'
+import NavHome from '../../components/NavComp/NavHome/NavHome';
 import './legal.css';
 
 
 const Disclaimer = () => {
   return (
     <div>
+      <NavHome />
       <div className='legal center-text'>
         <h1>Disclaimer</h1>
         <br />

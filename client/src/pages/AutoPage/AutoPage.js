@@ -120,7 +120,7 @@ const HomePage = () => {
             <td>❌</td>
           </tr>
           <tr>
-            <td>Aveilable 24/7</td>
+            <td>Available 24/7</td>
             <td>✔️</td>
             <td>❌</td>
           </tr>

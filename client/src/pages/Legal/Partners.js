@@ -1,10 +1,12 @@
 import React from 'react'
+import NavHome from '../../components/NavComp/NavHome/NavHome';
 import './legal.css';
 
 
 const Partners = () => {
   return (
     <div>
+      <NavHome />
       <div className='legal partners'>
         <h1>Partners</h1>
         <ul>

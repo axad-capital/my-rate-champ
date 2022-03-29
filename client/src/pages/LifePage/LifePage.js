@@ -21,7 +21,7 @@ const LifePage = () => {
           <LifeForm />
       </div>
       <br />
-      <div id='health-about' className='health-header'>
+      <div id='life-about' className='health-header'>
         <h1 className='health-header-title'>Protect Your Family With A <span className='blue'>Low Cost</span> Life Insurance Policy.</h1>
         <br />
         <h2>Discover How Affordable A life Insurance Policy Can Be NOW!</h2>
@@ -37,7 +37,7 @@ const LifePage = () => {
           <img className='health-header-img' src={LifeImg} alt="health header" />
         </div>
       </div>
-      <div id='health-process' className='health-process'>
+      <div id='life-process' className='health-process'>
         <h1 className='health-process-title'>To get a free quote, just enter some brief information and get your quote in minutes.</h1>
         <br />
         <h3>Licensed life insurance agents are available to speak with you.</h3>
