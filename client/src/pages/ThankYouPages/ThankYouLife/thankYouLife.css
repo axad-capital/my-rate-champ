@@ -1,0 +1,12 @@
+.go-back {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(255, 83, 112);
+    font-weight: 800;
+}
+
+.go-back:hover {
+    background-color: blue;
+}
