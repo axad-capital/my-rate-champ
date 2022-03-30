@@ -2,7 +2,6 @@ import React from 'react'
 import NavHome from '../../../components/NavComp/NavHome/NavHome'
 import './thankYouLife.css';
 
-
 const ThankYouLife = () => {
     return (
         <div>

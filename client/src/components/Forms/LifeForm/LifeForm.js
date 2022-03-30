@@ -4,6 +4,8 @@ import './lifeForm.css';
 const LifeForm = () => {
 
     function handleLifeFormSubmit() {
+        let zip = document.getElementById('zip').value
+        localStorage.setItem('zipcode', zip)
         window.location.href = '/thank-you-life'
     }
 
@@ -14,7 +16,7 @@ const LifeForm = () => {
                 <p>You Could Be Eligible To Get Coverage For As Little As $15/Month*</p>
                 <div className='life-form-info'>
                     <label htmlFor="life-zip">Zipcode</label>
-                    <input name='life-zip' type="number" placeholder='Zipcode' />
+                    <input id='zip' name='life-zip' type="number" placeholder='Zipcode' />
                     <label htmlFor="life-birth">Your Date Of Birth</label>
                     <input name='life-birth' type="date" />
                     <label htmlFor="coverage-type">Coverage Type</label>
