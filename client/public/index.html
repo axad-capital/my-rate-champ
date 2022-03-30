@@ -59,7 +59,7 @@
     crossorigin="anonymous"></script>
 
 
-  <script src="https://dashboard.clickstoconvert.com/js/publisher/showListing.js"></script>
+  <!-- <script src="https://dashboard.clickstoconvert.com/js/publisher/showListing.js"></script>
   <div id="show_ads"></div>
   <script type="text/javascript">
     var ClicksToConvertParam = {
@@ -72,7 +72,25 @@
       mode: "live"
     };
     ClicksToConvertAd('show_ads');
-  </script>
+  </script> -->
+  
+  <script>
+    cInsstate = ""; //State ID For Example: AL
+    cInszip = ""; // Zip Code For Example: 35004
+    cInsmaxads = "3"; //Max ads the affiliate want to display
+    cInspublisher_id = "887"; // Publisher Unique ID
+    cInssub_id = ""; //Sub ID
+    cInspub_id = ""; //Pub ID
+    cInsinsurancetype = "life"; //Insurance type ( life, auto, health, home, medicare )
+    !function (e, f, u) {
+    e.async = 1;
+    e.src = u;
+    document.write('<div id="iClickContainer"></div>');
+    f.parentNode.insertBefore(e, f);
+    }(document.createElement('script'),
+    document.getElementsByTagName('script')[0],
+    'https://www.insuranceclicks.com/iClickListing/RenderListing.js');
+    </script>
 </body>
 
 </html>

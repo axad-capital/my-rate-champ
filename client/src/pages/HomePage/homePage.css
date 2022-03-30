@@ -64,6 +64,17 @@
     width: 80%;
 }
 
+.home-about {
+    font-weight: 600;
+}
+
+.home-info-container {
+    text-align: center;
+    width: 80%;
+    max-width: 1300px;
+    margin: 30px auto;
+}
+
 @media screen and (max-width:990px) {
     .insurance-container {
         display: block;
