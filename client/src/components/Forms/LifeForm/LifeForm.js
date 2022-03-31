@@ -17,7 +17,7 @@ const LifeForm = () => {
                 <div className='life-form-info'>
                     <label htmlFor="life-zip">Zipcode</label>
                     <input id='zip' name='life-zip' type="number" placeholder='Zipcode' />
-                    <label htmlFor="life-birth">Your Date Of Birth</label>
+                    {/* <label htmlFor="life-birth">Your Date Of Birth</label>
                     <input name='life-birth' type="date" />
                     <label htmlFor="coverage-type">Coverage Type</label>
                     <select type="text" name="coverage-type">
@@ -50,8 +50,8 @@ const LifeForm = () => {
                         <option value="800000-900000">800,000-900,000</option>
                         <option value="900000-1000000">900,000-1,000,000</option>
                         <option value="1000000+">1,000,000 +</option>
-                    </select>
-                    <br />
+                    </select> */}
+                    <p>Get A Free Quote In Seconds</p>
                     <button onClick={handleLifeFormSubmit} className='life-form-btn'>SUBMIT</button>
                     <br />
                 </div>

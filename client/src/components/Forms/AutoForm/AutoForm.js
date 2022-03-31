@@ -79,20 +79,20 @@ const Form = () => {
                 <p>Stay Home & Renew Car Insurance In 2 Minutes</p>
                 <div className='auto-form'>
 
-                    <label htmlFor="first">First Name</label>
+                    {/* <label htmlFor="first">First Name</label>
                     <input id='first' name='first' className='form-input' type="text" placeholder='First Name' />
 
                     <label htmlFor="last">Last Name</label>
-                    <input id='last' name='last' className='form-input' type="text" placeholder='Last Name' />
+                    <input id='last' name='last' className='form-input' type="text" placeholder='Last Name' /> */}
 
                     <label htmlFor="zip">Zipcode</label>
                     <input id='auto-zip' name='zip' className='form-input' type="text" placeholder='Zipcode' />
 
-                    <label htmlFor="email">Email</label>
+                    {/* <label htmlFor="email">Email</label>
                     <input id='email' name='email' className='form-input' type="text" placeholder='Email' />
 
                     <label htmlFor="bday">Date of Birth</label>
-                    <input id='bday' name='bday' className='form-input' type="date" />
+                    <input id='bday' name='bday' className='form-input' type="date" /> */}
 
                     {/* <label htmlFor="vehicles">Current Age</label>
                     <input id='age' name='age' className='form-input' type="number" placeholder='Age' /> */}
@@ -109,8 +109,8 @@ const Form = () => {
                         <option value="No">No</option>
                     </select> */}
 
-                    <label htmlFor="vehicles">How Many Vehicles Do You Own</label>
-                    <input id='vehicles' name='vehicles' className='form-input' type="number" placeholder='Vehicle Count' />
+                    {/* <label htmlFor="vehicles">How Many Vehicles Do You Own</label>
+                    <input id='vehicles' name='vehicles' className='form-input' type="number" placeholder='Vehicle Count' /> */}
 
                     {/* <label htmlFor="phone-num">Phone Number</label>
                     <input id='phone-num' name='phone-num' className='form-input' type="text" placeholder='Phone Number' /> */}

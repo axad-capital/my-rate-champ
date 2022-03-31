@@ -18,7 +18,7 @@ const HealthForm = () => {
                     <div className='input-container health-form'>
                         <label htmlFor="zipcode">Zipcode</label>
                         <input id='health-zip' className='form-input health-form-input' type="text" name='zipcode' placeholder='Zipcode' required />
-                        <label htmlFor="date">Date of Birth</label>
+                        {/* <label htmlFor="date">Date of Birth</label>
                         <input className='form-input health-form-input' type="date" name='date' placeholder='Date of Birth' required />
                         <label htmlFor="credit">Credit Score</label>
                         <select className='form-input health-form-input' name="credit" id="credit" required>
@@ -27,10 +27,10 @@ const HealthForm = () => {
                             <option value="Average">Average</option>
                             <option value="Below Average">Below Average</option>
                             <option value="Poor">Poor</option>
-                        </select>
+                        </select> */}
                     </div>
                     <div className='input-container health-form'>
-                        <label htmlFor="coverageType">Coverage Type</label>
+                        {/* <label htmlFor="coverageType">Coverage Type</label>
                         <select className='form-input health-form-input' name="coverageType" id="coverageType" required>
                             <option value="individual">Individual Family</option>
                             <option value="shortTerm">Short Term</option>
@@ -47,7 +47,7 @@ const HealthForm = () => {
                         <select className='form-input health-form-input' name="insured" id="insured" required>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
-                        </select>
+                        </select> */}
                         <button className='form-btn health-btn' onClick={healthFormHandler}>Submit</button>
                     </div>
                     <p>By Click “Submit” you agree that you are over 18+ years and older.</p>
