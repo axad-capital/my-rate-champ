@@ -45,7 +45,7 @@ const HomePage = () => {
 
       <div id='about-me' className='about-me-container'>
         <h1 className='header-h1'>We Work For You Not The Insurance Companies.</h1>
-        <p>We do not work with any insurance companies specifically, so you can expect to get the abosulte best option for you without needing to worry about us pushing you into a choice that might not be your best fit.</p>
+        <p>We do not work with any insurance companies specifically, so you can expect to get the absolute best option for you without needing to worry about us pushing you into a choice that might not be your best fit.</p>
         <button className='get-btn' onClick={() => window.location.href = '#quote-form'}>Get A Quote</button>
       </div>
       <div className='about-me'></div>

@@ -16,7 +16,7 @@ const HealthForm = () => {
                 <p>Easily find the top health insurance quotes in your area instantly!</p>
                 <div className='health-form-container'>
                     <div className='input-container health-form'>
-                        <label htmlFor="zipcode">Zipcode</label>
+                        <label className='zip-code-label' htmlFor="zipcode">Enter Your Zipcode</label>
                         <input id='health-zip' className='form-input health-form-input' type="text" name='zipcode' placeholder='Zipcode' required />
                         {/* <label htmlFor="date">Date of Birth</label>
                         <input className='form-input health-form-input' type="date" name='date' placeholder='Date of Birth' required />

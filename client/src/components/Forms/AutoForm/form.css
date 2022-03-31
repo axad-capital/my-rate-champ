@@ -10,6 +10,11 @@
     box-shadow: 0 0 20px .1px;
 }
 
+.zip-code-label {
+    font-weight: 700;
+    color: red;
+}
+
 .auto-form {
     text-align: left;
     display: flex;

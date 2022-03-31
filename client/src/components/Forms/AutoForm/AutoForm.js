@@ -85,7 +85,7 @@ const Form = () => {
                     <label htmlFor="last">Last Name</label>
                     <input id='last' name='last' className='form-input' type="text" placeholder='Last Name' /> */}
 
-                    <label htmlFor="zip">Zipcode</label>
+                    <label className='zip-code-label' htmlFor="zip">Enter Your Zipcode</label>
                     <input id='auto-zip' name='zip' className='form-input' type="text" placeholder='Zipcode' />
 
                     {/* <label htmlFor="email">Email</label>

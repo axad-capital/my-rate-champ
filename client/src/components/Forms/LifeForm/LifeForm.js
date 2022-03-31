@@ -15,7 +15,7 @@ const LifeForm = () => {
                 <h1>Focus On What Really Matters</h1>
                 <p>You Could Be Eligible To Get Coverage For As Little As $15/Month*</p>
                 <div className='life-form-info'>
-                    <label htmlFor="life-zip">Zipcode</label>
+                    <label className='zip-code-label' htmlFor="life-zip">Enter Your Zipcode</label>
                     <input id='zip' name='life-zip' type="number" placeholder='Zipcode' />
                     {/* <label htmlFor="life-birth">Your Date Of Birth</label>
                     <input name='life-birth' type="date" />
