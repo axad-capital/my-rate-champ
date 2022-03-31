@@ -1,6 +1,7 @@
 import React from 'react';
 import './navHealth.css';
 import { Link, useLocation } from 'react-router-dom';
+import MyRateChampLogo from '../myratechamplogo.png'
 
 const NavHealth = () => {
 
@@ -11,7 +12,7 @@ const NavHealth = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light" id='bg-col'>
         <div className="container-fluid">
-          <Link to='/' className='navbar-brand'>MyRateChamp <span className='health-span'>Health</span></Link>
+          <Link to='/' className='navbar-brand'><img className='rate-logo' src={MyRateChampLogo} alt='my rate champ logo'/><span className='health-span'> Health</span></Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
