@@ -69,6 +69,33 @@
     font-size: 30px;
 }
 
+.health-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.health-header-img-wrapper {
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+}
+
+.health-head-img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1070px) {
+    .health-header-container {
+        display: block;
+    }
+
+    .health-header-img-wrapper {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .health-steps-container {
         display: block;

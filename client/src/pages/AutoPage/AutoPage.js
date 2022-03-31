@@ -8,7 +8,8 @@ import CheckIcon from '@mui/icons-material/Check';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import ResearchImg from './images/research.png';
 import PsychologyIcon from '@mui/icons-material/Psychology';
-import Footer from '../../components/Footer/Footer'
+import Footer from '../../components/Footer/Footer';
+import AutoHeaderImg from './images/auto-head.png';
 
 const HomePage = () => {
   return (
@@ -16,8 +17,13 @@ const HomePage = () => {
       <NavAuto />
       <br />
       <br />
-      <div id='quote-form'>
-        <QuoteForm />
+      <div className='img-form-container'>
+        <div className='auto-header-img-container'>
+          <img className='auto-header-img' src={AutoHeaderImg} alt="car-header" />
+        </div>
+        <div id='quote-form'>
+          <QuoteForm />
+        </div>
       </div>
       <div className='header'>
         <h1 className='header-h1'>Save Up To <span> 30% </span>On Your Car Insurance In Minutes.</h1>
@@ -35,7 +41,6 @@ const HomePage = () => {
             <p>THOUSANDS OF VEHICLES INSURED</p>
           </div>
         </div>
-        <p className='header-legal'>*TP price for less than 1000 CC cars. All savings are provided by insurers as per Gov. approved insurance plan. Standard T&C apply.</p>
       </div>
 
       <div id='about-me' className='about-me-container'>
@@ -50,7 +55,7 @@ const HomePage = () => {
         <br />
         <p>1. Fill out the the Quote Form.</p>
         <p>2. Choose the best insurance from your car.</p>
-        <p>3. Activate your policy on the spot with no times!</p>
+        <p>3. Activate your policy instantly!</p>
       </div>
 
       <div className='process-container'>
@@ -160,7 +165,7 @@ const HomePage = () => {
         </div>
         <img src={ResearchImg} alt="researcher" />
       </div>
-    <Footer />
+      <Footer />
     </div>
   )
 }

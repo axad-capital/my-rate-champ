@@ -50,7 +50,7 @@ const HealthForm = () => {
                         </select> */}
                         <button className='form-btn health-btn' onClick={healthFormHandler}>Submit</button>
                     </div>
-                    <p>By Click “Submit” you agree that you are over 18+ years and older.</p>
+                    <p>By Clicking “Submit” you agree that you are over 18+ years and older.</p>
                 </div>
             </div>
         </div>

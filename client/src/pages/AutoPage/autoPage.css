@@ -7,6 +7,22 @@
     padding-top: 50px;
 }
 
+.img-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auto-header-img-container {
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+}
+
+.auto-header-img {
+    width: 100%;
+}
+
 .header h1 span {
     color: orangered;
     font-weight: 400;
@@ -191,6 +207,15 @@
 }
 
 @media screen and (max-width: 1070px) {
+    .img-form-container {
+        display: block;
+    }
+
+    .auto-header-img-container {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
     .header-container {
         display: block;
         width: 100%;

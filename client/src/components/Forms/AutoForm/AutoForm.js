@@ -76,7 +76,7 @@ const Form = () => {
         <div>
             <div className='quote-form'>
                 <h1 id='quote-heading'>Get A Free Quote Now</h1>
-                <p>Stay Home & Renew Car Insurance In 2 Minutes</p>
+                <p>Stay Home & Find Affordable Car Insurance In 2 Minutes</p>
                 <div className='auto-form'>
 
                     {/* <label htmlFor="first">First Name</label>

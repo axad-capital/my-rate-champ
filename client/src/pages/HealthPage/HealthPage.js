@@ -4,6 +4,7 @@ import NavHealth from '../../components/NavComp/NavHealth/NavHealth';
 import HealthForm from '../../components/Forms/HealthForm/HealthForm';
 import HealthHeaderImg from './health-header-img.png';
 import Footer from '../../components/Footer/Footer'
+import HealthImgHeader from './health-head.png'
 
 
 const HealthPage = () => {
@@ -12,7 +13,12 @@ const HealthPage = () => {
       <NavHealth />
       <br />
       <br />
+      <div className='health-header-container'>
+        <div className='health-header-img-wrapper'>
+          <img src={HealthImgHeader} alt="health header" className="health-head-img" />
+        </div>
       <HealthForm />
+      </div>
       <br />
       <br />
       <div id='health-about' className='health-header'>
@@ -49,7 +55,7 @@ const HealthPage = () => {
             <p>Step 3.</p>
             <div className='small-line'></div>
             <br />
-            <p>Find The Right Health Insurance Coverage And SAVE MONEY!</p>
+            <p>Start Saving Money!</p>
           </div>
         </div>
         <div>
