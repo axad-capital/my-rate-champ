@@ -2,6 +2,13 @@ import React from 'react';
 import './healthForm.css';
 
 const HealthForm = () => {
+
+    function healthFormHandler() {
+        let healthZip = document.getElementById('health-zip').value
+        localStorage.setItem('zipcodeHealth', healthZip)
+        window.location.href = '/thank-you-health'
+    }
+
     return (
         <div>
             <div id='health-form' className='quote-form'>
@@ -10,7 +17,7 @@ const HealthForm = () => {
                 <div className='health-form-container'>
                     <div className='input-container health-form'>
                         <label htmlFor="zipcode">Zipcode</label>
-                        <input className='form-input health-form-input' type="text" name='zipcode' placeholder='Zipcode' required />
+                        <input id='health-zip' className='form-input health-form-input' type="text" name='zipcode' placeholder='Zipcode' required />
                         <label htmlFor="date">Date of Birth</label>
                         <input className='form-input health-form-input' type="date" name='date' placeholder='Date of Birth' required />
                         <label htmlFor="credit">Credit Score</label>
@@ -41,7 +48,7 @@ const HealthForm = () => {
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                         </select>
-                        <button className='form-btn health-btn' onClick={() => window.location.href = '/thank-you-health'}>Submit</button>
+                        <button className='form-btn health-btn' onClick={healthFormHandler}>Submit</button>
                     </div>
                     <p>By Click “Submit” you agree that you are over 18+ years and older.</p>
                 </div>
