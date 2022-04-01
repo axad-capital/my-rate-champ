@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './healthForm.css';
 
 const HealthForm = () => {
 
+    const  [blankHandler, setBlankHandler] = useState('')
+
     function healthFormHandler() {
+        if (document.getElementById('health-zip').value === null || document.getElementById('health-zip').value === '' || document.getElementById('health-zip').value.length < 5) {
+            setBlankHandler('You Must Enter A Valid Zipcode!')
+            return
+        }
         let healthZip = document.getElementById('health-zip').value
         localStorage.setItem('zipcodeHealth', healthZip)
         window.location.href = '/thank-you-health'
@@ -51,6 +57,8 @@ const HealthForm = () => {
                         <button className='form-btn health-btn' onClick={healthFormHandler}>Submit</button>
                     </div>
                     <p>By Clicking “Submit” you agree that you are over 18+ years and older.</p>
+                    <br />
+                    <p style={{color: 'red', textAlign: 'center'}} >{blankHandler}</p>
                 </div>
             </div>
         </div>

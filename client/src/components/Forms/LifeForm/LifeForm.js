@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './lifeForm.css';
 
 const LifeForm = () => {
 
+    const  [blankHandler, setBlankHandler] = useState('')
+
+
     function handleLifeFormSubmit() {
+        if (document.getElementById('zip').value === null || document.getElementById('zip').value === '' || document.getElementById('zip').value.length < 5) {
+            setBlankHandler('You Must Enter A Valid Zipcode!')
+            return
+        }
         let zip = document.getElementById('zip').value
         localStorage.setItem('zipcode', zip)
         window.location.href = '/thank-you-life'
@@ -54,6 +61,7 @@ const LifeForm = () => {
                     <p>Get A Free Quote In Seconds</p>
                     <button onClick={handleLifeFormSubmit} className='life-form-btn'>SUBMIT</button>
                     <br />
+                    <p style={{color: 'red', textAlign: 'center'}} >{blankHandler}</p>
                 </div>
             </div>
         </div>

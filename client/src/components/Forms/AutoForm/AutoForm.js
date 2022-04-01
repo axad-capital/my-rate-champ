@@ -1,14 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './form.css';
 // import { v4 as uuidv4 } from 'uuid'
 
 const Form = () => {
-
-    function quoteFormHandler () {
-        let autoZip = document.getElementById('auto-zip').value
-        localStorage.setItem('zipcodeAuto', autoZip)
-        window.location.href = '/thank-you-auto'
-    }
 
     // function quoteFormHandler() {
 
@@ -72,6 +66,18 @@ const Form = () => {
     //     // window.location.href = '/thank-you-auto'
     // }
 
+    const  [blankHandler, setBlankHandler] = useState('')
+
+    function quoteFormHandler() {
+        if (document.getElementById('auto-zip').value === null || document.getElementById('auto-zip').value === '' || document.getElementById('auto-zip').value.length < 5) {
+            setBlankHandler('You Must Enter A Valid Zipcode!')
+            return
+        }
+        let autoZip = document.getElementById('auto-zip').value
+        localStorage.setItem('zipcodeAuto', autoZip)
+        window.location.href = '/thank-you-auto'
+    }
+
     return (
         <div>
             <div className='quote-form'>
@@ -116,7 +122,9 @@ const Form = () => {
                     <input id='phone-num' name='phone-num' className='form-input' type="text" placeholder='Phone Number' /> */}
 
                     <br />
-                    <button className='form-btn' onClick={quoteFormHandler}>Submit</button>
+                    <button className='form-btn disable' onClick={quoteFormHandler}>Submit</button>
+                    <br />
+                    <p style={{color: 'red', textAlign: 'center'}} >{blankHandler}</p>
                 </div>
             </div>
         </div>
