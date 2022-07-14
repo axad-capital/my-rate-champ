@@ -3,10 +3,10 @@ import './thankYouAuto.css'
 // import NavHome from '../../../components/NavComp/NavHome/NavHome'
 
 const ThankYouAuto = () => {
-    function goBack() {
-        localStorage.clear()
-        window.location.href = '/'
-    }
+    // function goBack() {
+    //     localStorage.clear()
+    //     window.location.href = '/'
+    // }
     // return (
     //     <div>
     //         <button className='go-back' onClick={goBack}>Done</button>

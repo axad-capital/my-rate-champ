@@ -13,7 +13,7 @@ const Form = () => {
         // let autoZip = document.getElementById('auto-zip').value
         // localStorage.setItem('zipcodeAuto', autoZip)
         // window.location.href = '/thank-you-auto'
-        if (document.getElementById('state').value === '' || document.getElementById('home-owner').value === '' || document.getElementById('insured').value === '' || document.getElementById('age').value === '') {
+        if (document.getElementById('auto-zip').value === '' || document.getElementById('state').value === '' || document.getElementById('home-owner').value === '' || document.getElementById('insured').value === '' || document.getElementById('age').value === '') {
             setBlankHandler('All fields required')
             return
         }
@@ -31,6 +31,8 @@ const Form = () => {
             "homeowner": document.getElementById('home-owner').value,
             "currentlyinsured": document.getElementById('insured').value
         }
+
+        localStorage.setItem('zipcodeAuto', document.getElementById('auto-zip').value)
 
         fetch('https://api.transparent.ly/search/blue/green', {
             method: 'POST',
